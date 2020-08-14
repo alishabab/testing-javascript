@@ -1,9 +1,11 @@
-import { stringMainupulation } from '../javascript/stringMainupulation';
+import stringMainupulation from '../javascript/stringMainupulation';
 
-test('Returns capitalized string', () => {
+test('capitalize', () => {
   expect(stringMainupulation.capitalize('everyone enjoys food!')).toBe('Everyone enjoys food!');
+  expect(stringMainupulation.capitalize()).toBe('Input valid string');
 });
 
-test('Returns error if string empty', () => {
-  expect(stringMainupulation.capitalize()).toBe('Input valid string');
+test('reverseString', () => {
+  expect(stringMainupulation.reverseString('hello world')).toBe('dlrow olleh');
+  expect(stringMainupulation.reverseString()).toBe('Input valid string');
 });
