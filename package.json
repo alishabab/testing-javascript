@@ -1,0 +1,29 @@
+{
+  "name": "testing-javascript",
+  "version": "1.0.0",
+  "description": "Testing Javascript with JEST",
+  "main": "dist/index.html",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alishabab/testing-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alishabab/testing-javascript/issues"
+  },
+  "homepage": "https://github.com/alishabab/testing-javascript#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.11.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "jest": "^26.4.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
